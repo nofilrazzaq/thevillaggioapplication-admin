@@ -1,0 +1,414 @@
+@import url('app.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+.v-toast__item {
+	max-width: 350px;
+	min-width: 200px;
+}
+
+.btn {
+  min-height: 45px;
+}
+
+.btn-success.disabled,
+.btn-success[disabled] {
+	color: rgba(83, 83, 95, 0.25);
+  background-color: #0889a0 !important;
+  border-color: #0889a0 !important;
+}
+
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover {
+	color: rgba(83, 83, 95, 0.25);
+  background-color: #0889a0 !important;
+  border-color: #0889a0 !important;
+}
+
+.spinner.spinner--spin-line {
+  height: unset !important;
+}
+
+.loader {
+  justify-content: center;
+  display: flex;
+}
+
+.spinner-inner {
+  background: rgb(249 251 253) !important;
+}
+
+.v-toast__text {
+	color: white;
+	text-align: left;
+}
+
+.fa-icons {
+  cursor: pointer;
+  color: white;
+  background: #53535f;
+  padding: 13px;
+  border-radius: 50%;
+  /* box-shadow: 2px 2px 1px 0px #d5d5d5; */
+}
+
+/* .fa-icons:active {
+  box-shadow: inset 2px 2px 1px 0px #d5d5d54f;
+} */
+
+.vc-btn {
+  color: #0889a0;
+}
+
+.dataTables_wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100% !important;
+}
+
+.dataTables_wrapper::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.dataTables_wrapper::-webkit-scrollbar-track {
+  background: #f9fbfd;
+}
+
+/* Handle */
+.dataTables_wrapper::-webkit-scrollbar-thumb {
+  background: #0889a0;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+.dataTables_wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+
+}
+
+.main-loader {
+  height: calc(70vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-loader .spinner > div {
+  background-color: unset !important;
+  background: #0889a0 !important;
+}
+
+.main-loader .spinner::after {
+  background: #0889a0 !important;
+}
+
+.disabled-click {
+	pointer-events: none;
+}
+
+.dataTables_wrapper {
+	position: relative;
+}
+
+.dataTables_filter {
+	display: none;
+}
+
+.dataTables_length {
+	float: right;
+	margin: 10px 0px;
+}
+
+.dataTables_info {
+	clear: both;
+	float: left;
+	padding-top: 15px !important;
+	position: absolute;
+	top: 0;
+}
+
+.router-link-exact-active {
+  background: #0889a0;
+  color: white !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.router-link-exact-active .icon-holder {
+  color: white !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .dataTables_info {
+    display: none;
+  }
+  .dataTables_length {
+    float: left;
+  }
+}
+
+.dataTable thead {
+	background: #f3f3f3;
+}
+
+.dataTables_wrapper .dataTables_length select {
+	border: 1px solid #0889a0;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 3px 5px;
+	width: 60px;
+	outline: none;
+}
+
+.datatable_search {
+	border: 0px;
+	border: 2px solid #83903e;
+	height: 50px;
+	/* background: #f9fbfd; */
+}
+
+.datatable_search:active,
+.datatable_search:hover,
+.datatable_search:focus {
+	/* background: ; */
+	outline: none;
+	border: none;
+	box-shadow: none !important;
+	border: 2px solid #83903e;
+	border-color: #83903e !important;
+	/* background: #f9fbfd; */
+	/* border-bottom: 2px solid #ededed !important; */
+}
+
+a.paginate_button {
+	margin: 0px 4px;
+	padding: 4px 15px;
+	width: 20px;
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 50%;
+	color: #2a2a2a;
+}
+
+a.paginate_button img {
+  filter: invert(47%) sepia(3%) saturate(1686%) hue-rotate(201deg) brightness(103%) contrast(89%);
+}
+
+a.paginate_button:hover {
+	cursor: pointer;
+}
+
+a.paginate_button.current {
+	background: #53535f;
+	border-color: transparent;
+	color: white;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	text-align: center !important;
+	margin-top: 15px !important;
+}
+
+.checkbox-icon .checkbox-container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkbox-icon .checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+	position: absolute;
+	top: -7px;
+	left: 0;
+	height: 25px;
+  max-width: 25px;
+  width: 25px !important;
+	background-color: #eee;
+}
+
+table td .checkmark {
+  top: 0px;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkbox-icon .checkbox-container:hover input~.checkmark {
+	background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkbox-icon .checkbox-container input:checked~.checkmark {
+	background-color: #53535f;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.checkbox-icon .checkbox-container input:checked~.checkmark:after {
+	display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.checkbox-icon .checkbox-container .checkmark:after {
+	left: 4px;
+	top: 8px;
+	width: 17px;
+	height: 8px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: scaleX(-1) rotate(45deg);
+	transform: scaleX(-1) rotate(45deg);
+}
+
+/* .form-control.replace {
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  padding-left: 0px;
+} */
+
+.add-edit-form .checkbox-icon {
+  width: fit-content;
+  float: right;
+  position: absolute;
+  right: 0px;
+  z-index: 9999;
+}
+.add-edit-form .checkbox-icon span {
+  width: 70px;
+}
+@media (max-width: 1334px) {
+  .add-edit-form .checkbox-icon {
+    position: unset;
+  }
+}
+@media (max-width: 768px) {
+  .add-edit-form .checkbox-icon {
+    width: 100%;
+  }
+  .add-edit-form .checkbox-icon span {
+    width: 28%;
+  }
+}
+
+.chart#sales-chart {
+	height: 100%;
+	width: 100%;
+}
+
+.chartjs-render-monitor#doughnut-chart {
+  max-height: 368px;
+}
+
+.thumbnail-display {
+	width: 250px;
+	height: 250px;
+	margin: 0px auto;
+	display: block;
+	border: 1px dashed grey;
+	position: relative;
+	left: 1rem;
+}
+
+.product-form label {
+  display: block;
+  text-transform: capitalize;
+	align-items: center;
+	margin-bottom: 1.6rem;
+}
+
+.header .logo {
+	display: flex;
+	justify-content: center;
+}
+
+.dashboard-counts {
+	font-size: 45px;
+	border-radius: 20px;
+	color: lightblue;
+}
+
+.counts .dashboard-counts {
+  color: #0889a0;
+}
+.counts .dashboard-counts:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #0889a0;
+}
+
+/* .question-separator {
+  border-bottom: 1px double dashed #e6e9ec;
+  width: 50%;
+  margin: 0px auto;
+  margin-bottom: 10px;
+} */
+
+/*
+.counts:nth-child(1) .dashboard-counts:hover {
+  text-decoration: underline;
+  text-decoration-color: #01c6a4;
+  text-decoration-style: dotted;
+}
+
+.counts:nth-child(2) .dashboard-counts {
+	color: #815cbf;
+}
+
+.counts:nth-child(2) .dashboard-counts:hover {
+  text-decoration: underline;
+  text-decoration-color: #815cbf;
+  text-decoration-style: dotted;
+}
+
+.counts:nth-child(3) .dashboard-counts {
+	color: #049de1;
+}
+
+.counts:nth-child(3) .dashboard-counts:hover {
+  text-decoration: underline;
+  text-decoration-color: #049de1;
+  text-decoration-style: dotted;
+}
+
+.counts:nth-child(4) .dashboard-counts {
+	color: #d40e0e;
+}
+
+.counts:nth-child(4) .dashboard-counts:hover {
+  text-decoration: underline;
+  text-decoration-color: #d40e0e;
+  text-decoration-style: dotted;
+} */

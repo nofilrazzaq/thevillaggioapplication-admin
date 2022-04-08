@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.application-print {
+  color: black !important;
+  page-break-after: always;
+}
+
+.application-print input[type="radio"],
+.application-print input[type="checkbox"] {
+  margin-right: 9px;
+}
+
+.application-print p {
+  color: unset;
+  line-height: unset;
+}
+
+.application-print h1,
+.application-print h2,
+.application-print h3,
+.application-print h4,
+.application-print h5,
+.application-print h6 {
+  color: unset;
+  line-height: unset;
+  /* font-size: inherit; */
+  font-weight: bold;
+}
+
+.mian-page-wraper {
+  /* max-width: 800px; */
+  margin: 0 auto;
+  padding: 0px 50px 0px 50px;
+
+}
+
+.application-print {
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  margin-top: 20px;
+}
+
+.logo h2 {
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.application-header h3 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 18px;
+}
+
+.application-print h1,
+.application-print h2,
+.application-print h3,
+.application-print h4,
+.application-print h5,
+.application-print h6,
+.application-print p {
+  margin: 0px;
+}
+
+.application-print p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.paragraph-end {
+  height: 2px;
+  background: #000;
+  border: none;
+  margin: 3px;
+}
+
+.application-print p.paragraph-space {}
+
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+
+.custom-input {
+  width: 85%;
+  border: none;
+  border-bottom: solid 1px #000;
+  background: white;
+  color: black;
+  font-size: 14px;
+}
+
+.current-contact h3 {
+  margin-top: 10px;
+}
+
+.current-contact h3 span {
+  font-size: 20px;
+}
+
+.application-print input:focus {
+  outline: none;
+}
+
+.application-print input {
+  pointer-events: none;
+}
+
+.preferred-method {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.preferred-method .first {
+  width: 50%;
+}
+
+.preferred-method .second {
+  width: 10%;
+}
+
+.preferred-method .third {
+  width: 10%;
+}
+
+.preferred-method .fourth {
+  width: 30%;
+
+}
+
+.preferred-method .fourth label {
+  display: flex;
+  align-items: center;
+}
+
+.current-address {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.current-address .first {
+  width: 20%;
+}
+
+.current-address .second {
+  width: 80%;
+}
+
+.current-address .second input {
+  width: 100%;
+}
+
+.other-details {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.other-details .first {
+  width: 50%;
+}
+
+.other-details .second {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-details .second label {
+  width: auto;
+}
+
+.other-details label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.other-details label span {
+  width: 60%;
+}
+
+.resonable-section {
+  margin-top: 10px;
+}
+
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%
+}
+
+.col-2 {
+  width: 16.66%
+}
+
+.col-3 {
+  width: 24.99%
+}
+
+.col-4 {
+  width: 33.32%;
+}
+
+.col-5 {
+  width: 41.65%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.31%;
+}
+
+.col-8 {
+  width: 66.64%;
+}
+
+.col-9 {
+  width: 74.97%;
+}
+
+.col-10 {
+  width: 83.3%;
+}
+
+.col-11 {
+  width: 91.63%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.application-print label {
+  display: flex !important;
+  align-items: center;
+}
+
+.application-print ul {
+  margin: 0px;
+}
+
+.inner-pages {
+  padding: 0px 0px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.heading-h {}
+
+.align-items-center {
+  align-items: center;
+}
+
+.household h4 {
+  margin-bottom: 10px;
+}
+
+.household-inner {
+  margin: 10px 0px;
+}
+
+.household-inner input {
+  margin-right: 10px;
+}
+
+.check-her-section label div {
+  margin-right: 20px;
+}
+
+.check-her-section .end-label {
+  margin-bottom: 10px;
+}
+
+.agency-section p {
+  width: 50%;
+}
+
+.agency-section input {
+  /* width:50%; */
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.third-page-label span {
+  margin-right: 15px;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.of-Bedrooms .bed {
+  width: 30%;
+}
+
+.bed-input {
+  width: 30%;
+}
+
+.poperty-section {
+  margin: 10px 0px;
+}
+
+.third-page-label {
+  margin: 5px 0px;
+}
+
+.yes-no div {
+  margin: 0px 5px;
+}
+
+.number-of-cars {
+  width: 30%;
+}
+
+.poperty-section p {
+  margin-left: 10px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.rental-history-table input {
+  margin-left: 5px;
+}
+
+.rental-history-table .second {
+  margin-top: 20px;
+}
+
+.rental-history-table label {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.application-status h4 {
+  margin: 10px 0px;
+}
+
+.fourth-page .third-page-label {
+  margin: 0px;
+}
+
+.application-print h5.question {
+  margin: 5px 0px;
+}
+
+.yes-no {
+  margin-top: 0px;
+}
+
+.inner-pages.fourth-page {
+  padding: 30px 0px 0px 0px;
+}
+
+.income-p {
+  margin-bottom: 5px;
+}
+
+.income-label span {
+  margin-right: 20px;
+}
+
+.fifth-page .subheading {
+  margin-bottom: 10px;
+}
+
+.incom-information-table th p {
+  font-weight: 700;
+}
+
+.incom-information-table th {
+  text-align: center;
+  padding-right: 10px;
+}
+
+.incom-information-table-2 th {
+  padding-right: 3px;
+  text-align: center;
+}
+
+.application-print input::placeholder {
+  font-weight: 800;
+  color: #000;
+}
+
+.sevenththnumber input {
+  width: 100%;
+}
+
+.fifth-page {
+  padding: 30px 0px;
+}
+
+.fifth-page .heading-h {
+  margin-bottom: 5px;
+}
+
+.fifth-page .income-label span {
+  font-weight: 800;
+}
+
+.drug-section {
+  margin-top: 10px;
+}
+
+.drug-center {
+  margin: 20px 0px
+}
+
+.notice-reg {
+  margin: 10px 0px;
+}
+
+.notice-label {
+  margin: 10px 0px;
+}
+
+.all-application p {
+  margin-top: 10px;
+}
+
+.upon-notification p {
+  margin-bottom: 10px;
+}
+
+.for-managemnt-section label p {
+  width: 80%;
+}
+
+.for-managemnt-section label p.received {
+  width: 25%;
+}
+
+.warning {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.tenth-page p {
+  font-size: 24px;
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.without-label div {
+  margin: 0px 5px;
+}
+
+.household-inner h4 {
+  font-size: 14px;
+}
